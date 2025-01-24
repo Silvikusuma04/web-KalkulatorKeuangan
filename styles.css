@@ -1,0 +1,150 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(83, 134, 168, 0.938);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(189, 224, 255);
+    padding: 10px 20px; /* Padding pada navbar */
+    border-radius: 5px; /* Sudut rounded pada navbar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow untuk efek 3D */
+}
+
+.navbar .navbar-brand {
+    color: black;
+    font-weight: bold;
+    font-size: 20px; /* Ukuran teks navbar */
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-weight: normal; /* Menghilangkan bold */
+    font-size: 16px; /* Ukuran teks link */
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 10px; /* Jarak antar item navigasi */
+}
+
+.navbar .navbar-nav .nav-item:last-child {
+    margin-right: 0; /* Menghilangkan margin pada item navigasi terakhir */
+}
+
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Tab styles */
+.nav-tabs .nav-item .nav-link {
+    color: #333;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+/* Alert styles */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
